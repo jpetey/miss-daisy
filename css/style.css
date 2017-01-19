@@ -7,9 +7,7 @@
          url('../fonts/cantarell_reg/Cantarell-Regular-webfont.svg#cantarellregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 body {
 	color: #777777;
@@ -69,41 +67,134 @@ section {
 #home-xl-img {
 	float: left;
 	max-width: 800px;
+	margin-right: 20px;
 	width: 100%;
 }
 
-.home-side-img {
-	float: right;
-	margin: 0 0 20px 20px;
+#lav-blooms {
+	background-image: url('../images/index/lav-blooms-text.png');
+	margin-bottom: 20px;
 	max-width: 360px;
+	height: 290px;
+}
+
+#pink-closeup {
+	background-image: url('../images/index/pink-closeup.jpg');
+	max-width: 360px;
+	height: 290px;
+}
+
+#white-blooms {
+	background-image: url('../images/index/white-blooms.jpg');
+	max-width: 380px;
+	height: 280px;
+}
+
+#teacup {
+	background-image: url('../images/index/teacup-border.jpg');
+	max-width: 380px;
+	height: 280px;
+}
+
+#rustic-bar {
+	background-image: url('../images/index/rustic-bar.jpg');
+	max-width: 380px;
+	height: 280px;
+}
+
+.home-side-div {
+	float: left;
+	max-width: 360px;
+	position: relative;
 	width: 100%;
 }
 
-.home-side-img {
-	float: right;
-	margin: 0 0 20px 20px;
-	max-width: 360px;
+.home-btm-div, .home-btm-mid-div {
+	float: left;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	max-width: 380px;
+	position: relative;
+	width: 100%;
+}
+
+.home-btm-mid-div {margin: 20px 20px 0 20px;}
+
+.img-title {
+	top: 127px;
+	border-bottom: 2px #fff solid;
+	border-top: 2px #fff solid;
+	color: #fff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 40px;
+	padding: 3px 0;
+	position: absolute;
+	text-align: center;
+	text-shadow: 0px 0px 10px #000;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+/*Lav Blooms, no border around text + Opal + classes*/
+.img-title2 { 
+	top: 127px;
+	color: #fff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 40px;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	text-shadow: 0px 0px 10px #000;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+/*option 3 - subscriptions*/
+.img-title3 { 
+	top: 127px;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 40px;
+	padding: 3px 0;
+	position: absolute;
+	text-align: center;
+	text-shadow: 0px 0px 10px #000;
+	text-transform: uppercase;
 	width: 100%;
 }
 
 .clear {clear: both;}
 
-.home-btm-img, .home-btm-mid-img {
-	float: left;
-	max-width: 380px;
-	width: 100%;
+div.home-img-link:after, h3.img-title:after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background: rgba(0,0,0,.5);
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
-.home-btm-mid-img {margin: 0 20px;}
+div.home-img-link:hover:after, h3.img-title:hover:after {
+    opacity: 1;
+    cursor: pointer;
+}
 
 footer {
-	border-top: 5px solid #4aaaa5;
-	background-color: #666666;
+	border-top: 5px solid #b9e0d8;
+	background-color: #ddd;
 	clear: both;
-	margin: 0;
+	margin: 0 auto;
+	max-width: 1180px;
 	padding: 20px;
 	text-align: center;
 	width: 100%;
+	-webkit	box-sizing: border-box;
+		-moz box-sizing: border-box;
+			box-sizing: border-box;
 
 }
 
