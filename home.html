@@ -10,28 +10,26 @@
 
 </head>
 <body>
-<header>
-	<div class="container">
-		<img id="img-head" src="images/header.png">
-		<img id="logo" src="images/logo-green-pink.jpg">
-		<!--Navigation Menu-->
-		<nav>
-			<ul class='nav'>
-				<li class="active"><a class="navlink" href="home.html">Home</a></li>
-				<li class="inactive"><a class="navlink" href="http://missdaisyflowers.bloomnation.com">Shop!</a></li>
-				<li class="inactive"><a class="navlink" href="subscribe.html">Subscriptions</a></li>
-				<li class="inactive"><a class="navlink" href="portfolio.html">Portfolio</a>
-				<li class="inactive"><a class="navlink" href="classes.html">Classes</a></li>
-				</li>
-				<li class="inactive"><a class="navlink" href="opal.html">Opal Events</a></li>
-				<li class="inactive"><a class="navlink" href="about.html">About</a></li>
-				<li class="inactive"><a class="navlink" href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
+<header>	
+	<img id="img-head" src="images/header.png">
+	<img id="logo" src="images/logo-green-pink.jpg">
+	<!--Navigation Menu-->
+	<nav>
+		<ul class='nav'>
+			<li class="active"><a class="navlink" href="home.html">Home</a></li>
+			<li class="inactive"><a class="navlink" href="http://missdaisyflowers.bloomnation.com">Shop!</a></li>
+			<li class="inactive"><a class="navlink" href="subscribe.html">Subscriptions</a></li>
+			<li class="inactive"><a class="navlink" href="portfolio.html">Portfolio</a>
+			<li class="inactive"><a class="navlink" href="classes.html">Classes</a></li>
+			</li>
+			<li class="inactive"><a class="navlink" href="opal.html">Opal Events</a></li>
+			<li class="inactive"><a class="navlink" href="about.html">About</a></li>
+			<li class="inactive"><a class="navlink" href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
 </header>
 <main>
-	<section id="section1">
+	<section class="clearfix">
 		<h2 id="announce">To speak with a florist, please call us at <a href="tel:+17022220080">702.222.0080</a>. Same-day orders gladly accepted before 2PM.</h2>
 		<img id="home-xl-img" src="images/index/desert-shoot.jpg">
 		<!--take 2-->
@@ -50,7 +48,7 @@
 		</a>
 
 		<a href="subscribe.html">
-			<div class="home-btm-div clear">
+			<div class="home-btm-div">
 				<div class="home-img-link" id="white-blooms"></div>
 				<h3 class="img-title3">Subscriptions</h3>
 			</div>
@@ -66,11 +64,45 @@
 		<a href="opal.html">
 			<div class="home-btm-div">
 				<div class="home-img-link" id="rustic-bar"></div>
-				<h3 class="img-title2">Opal Events</h3>
+				<h3 class="img-title2"	>Opal Events</h3>
 			</div>
 		</a>
 	</section>
+	<hr>
+	<section id="home-about" class="clear">
+		<p>Miss Daisy is Las Vegas' premiere full-service floral design studio. We use the freshest, highest quality flowers and individually design our arrangements to meet your specific needs.
+		</p><br>
+		<p>We love designing for events, weddings, businesses, hotels, galleries, and private homes. Give us a call or stop by our studio to discuss your specific needs, or check out our <a href="http://missdaisyflowers.bloomnation.com">online shop</a> for fast, convenient ordering!
+	</section>
+	<hr>
 </main>
+
+<aside class="clearfix">
+	<div class="aside-contact-box">
+		<h3 class="aside-box-title">Contact Us</h3>
+		<div id="aside-contact-content">	
+			<img class="contact-icon" src="images/phone.png">
+			<p class="contact-info"> 702-222-0080</p><br>
+			<img class="contact-icon" src="images/email.png">
+			<p class="contact-info"><a href="mailto:missdaisy@missdaisyflowers.com">Click here to email Miss Daisy</a></p><br>	 
+			<p class="contact-info"><em>We deliver 7 days a week, with a 24 hours notice for weekend orders!</em></p>
+		</div>
+	</div>
+	<div class="aside-visit-box">
+		<h3 class="aside-box-title">Visit Us</h3>
+		<div id="aside-visit-content">
+			<img class="visit-icon" src="images/location.png">
+			<p class="visit-info">3710 W. Desert Inn Rd. <br>Las Vegas, NV 89102</p><br><br>
+			<img class="contact-icon" src="images/time.png">
+			<p class="contact-info">Studio hours:<br>Mon &#45; Fri: 9am-6pm.</p><br>
+		</div>
+	</div>
+	<!--TEMP MAP PLACEHOLDER-->
+	<div id="aside-map">GOOGLE MAP PLACEHOLDER<br>Will go live when site does.</div>
+	<!--TEMP DISABLE
+	<iframe id="aside-map" height="300"  frameborder="0" style="border:0"  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCaGwzZefTKNQYbMAbcLgUZuJY9-zT-Q_Q&q=Miss+Daisy+Las+Vegas+NV" allowfullscreen></iframe>-->
+	</div>
+</aside>
 
 <footer>
 	<p>&copy; Copyright 2017 Jeremee Peters</p>
