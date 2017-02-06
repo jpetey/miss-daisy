@@ -182,8 +182,7 @@ main > hr {
 	text-align: center;
 	width: 80%
 }
-
-#home-about {
+.container {
 	padding: 25px 25px 30px 25px;
 	line-height: 26px;
 	text-align: left;
