@@ -48,9 +48,12 @@ a:hover {color: #b9e0d8;}
 
 .clearfix {overflow: auto;}
 
-#announce {
-	font-size: 18px;
-	padding-bottom: 15px;
+.announce {
+	font-size: 20px;
+	font-weight: bold;
+	color: #333333;
+	padding-top: 5px;
+	padding-bottom: 25px;
 	text-align: center;
 }
 
@@ -203,6 +206,17 @@ aside {
 			box-sizing: border-box;
 }
 
+#contact-main {
+	margin-top: 0px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 60px;
+	background-color: #fff;
+	-webkit	box-sizing: border-box;
+		-moz box-sizing: border-box;
+			box-sizing: border-box;
+}
+
 .aside-contact-box, .aside-visit-box {
 	float: left;	
 	width: 30%;
@@ -275,3 +289,14 @@ footer {
 	width: 100%;
 }
 
+/* PORTFOLIO */
+
+#pf-welcome {
+	text-align: center;
+}
+
+.pf-title {
+	padding: 0px 0 20px 0;
+	font-size: 45px;
+	color: #333333;
+}
