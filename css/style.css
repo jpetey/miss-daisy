@@ -9,10 +9,24 @@
     font-style: normal;
 }
 
-body, button {
-	color: #777777;
-	font-family: 'cantarellregular';
+@font-face {
+    font-family: 'xiomara-script';
+    src: url('../fonts/xiomara/xiomara-script.eot');
+    src: url('../fonts/xiomara/xiomara-script.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/xiomara/xiomara-script.woff') format('woff'),
+         url('../fonts/xiomara/xiomara-script.ttf') format('truetype'),
+         url('../fonts/xiomara/xiomara-script.svg#xiomara-script') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
+body {
+	color: #777777;
+	font-family: 'cantarellregular', Calibri, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h3 {font-family: 'xiomara-script', 'Georgia', Times, Times New Roman, serif;
+	}
 
 header, main, section, aside {
 	max-width: 1180px;
@@ -27,7 +41,7 @@ a:hover {color: #b9e0d8;}
 
 #img-head {width: 90%;}
 
-#logo {width: 26.3%}
+#logo {width: 350px;}
 
 nav {
 	border-bottom: 2px solid #333333;
@@ -80,18 +94,22 @@ a:hover {color: #b9e0d8;}
 #home-xl-btn {
   position: absolute;
   z-index: 99;
-  padding: 20px;
-  font-size: 26px;
+  left: 115px;
+  top: 100px;
+  padding: 30px;
+  font-family: 'xiomara-script', 'Georgia', Times, Times New Roman, serif;
+  font-size: 45px;
   font-weight: bold;
+  color: #fff;
   text-shadow: 0px 0px 15px #000;
   cursor: pointer;
   border-radius: 5px;
   background: none;
-  border: #fff solid 4px;
+  border: 5px double #fff;
 }
 
 #home-xl-btn:hover {
-  background: #cccccc;
+  background: #b9e0d8;
   opacity: 0.5;
 }
 
@@ -147,19 +165,19 @@ a:hover {color: #b9e0d8;}
 .img-title { 
 	top: 127px;
 	color: #fff;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 40px;
+	font-size: 50px;
+	line-height: 60px;
 	padding: 0;
 	position: absolute;
 	text-align: center;
 	text-shadow: 0px 0px 15px #000;
-	text-transform: uppercase;
+	text-transform: none;
 	width: 100%;
 }
 
 .clear {clear: both;}
 
-div.home-img-link:after, h3.img-title:after {
+div.home-img-link:after {
     content: "";
     display: block;
     height: 100%;
@@ -171,7 +189,7 @@ div.home-img-link:after, h3.img-title:after {
     transition: all 0.5s;
 }
 
-div.home-img-link:hover:after, h3.img-title:hover:after {
+div.home-img-link:hover:after {
     opacity: 1;
     cursor: pointer;
 }
@@ -187,6 +205,12 @@ main > hr {
 	line-height: 26px;
 	text-align: left;
 	font-size: 20px;
+}
+
+.main-titles {
+	padding: 30px 0;
+	font-size: 35px;
+	color: #333333;
 }
 
 aside {
@@ -267,5 +291,9 @@ footer {
 			box-sizing: border-box;
 }
 
+/* ABOUT */
 
+#about-xl {
+	width: 100%;
+}
 
