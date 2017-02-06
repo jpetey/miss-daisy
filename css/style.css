@@ -8,9 +8,11 @@ h3 {font-family: 'Xiomara-Script', 'Georgia', Times, Times New Roman, serif;
 
 header, main, section, aside {
 	max-width: 1180px;
+	width: 100%;
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
+
 }
 
 a {color: #777777;}
@@ -300,3 +302,4 @@ footer {
 	font-size: 45px;
 	color: #333333;
 }
+
