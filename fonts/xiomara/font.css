@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Xiomara-Script';
-    src: url('Xiomara-Script.eot');
-    src: url('Xiomara-Script') format('embedded-opentype'),
-         url('Xiomara-Script.woff') format('woff'),
-         url('Xiomara-Script.ttf') format('truetype'),
-         url('Xiomara-Script#Xiomara') format('svg');
+    src: url('xiomara-script.eot');
+    src: url('xiomara-script') format('embedded-opentype'),
+         url('xiomara-script.woff') format('woff'),
+         url('xiomara-script.ttf') format('truetype'),
+         url('xiomara-script#Xiomara') format('svg');
     font-weight: normal;
     font-style: normal;
 

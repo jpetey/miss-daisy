@@ -57,6 +57,7 @@ a:hover {color: #b9e0d8;}
 	padding-top: 5px;
 	padding-bottom: 25px;
 	text-align: center;
+	line-height: 32px;
 }
 
 #home-xl {
@@ -263,7 +264,6 @@ aside {
 	float: left;	
 	height: 300px;
 	width: 40%;
-	padding: 30px 30px 30px 0px;
 	background-color: #dddddd;
 	-webkit	box-sizing: border-box;
 		-moz box-sizing: border-box;
@@ -276,12 +276,20 @@ footer {
 	clear: both;
 	margin: 0 auto;
 	max-width: 1180px;
-	padding: 20px;
+	padding-top: 10px;
 	text-align: center;
 	width: 100%;
 	-webkit	box-sizing: border-box;
 		-moz box-sizing: border-box;
 			box-sizing: border-box;
+}
+
+
+footer > p {
+	color: #fff;
+	background-color: #565155;
+	padding: 20px 0;
+	margin: 0;
 }
 
 /* ABOUT */
@@ -302,3 +310,16 @@ footer {
 	color: #333333;
 }
 
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
+	header, main, section, aside {
+	max-width: 980px;
+
+}
+
+@media screen and (max-width: 640px) {
+	.home-side-div, .home-btm-div {
+		max-width: 500px;
+	}
+
+}
